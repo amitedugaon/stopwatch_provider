@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:stopwatch_provider/stopwatch.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Stop Watch'),
+      home: const StopWatch(title: 'Stop Watch'),
     );
   }
 }
